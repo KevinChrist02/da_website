@@ -2,15 +2,30 @@
   --background: #303446;
   --text: #c6d0f5;
   --teal: #81c8be;
+  --maroon: #ea999c;
 }
 
 body {
   background: var(--background);
   color: var(--text);
+  margin: 4vw;
 }
 
 .main-heading {
   font-family: "Array";
-  font-size: max(12vw, 30vw);
+  font-size: max(12vw, 20vw);
   font-weight: 400;
+  color: var(--teal);
+}
+
+.text {
+  font-size: 18px;
+  font-family: "Khand";
+}
+
+.heading {
+  font-size: max(2vw, 4vw);
+  font-family: "Array";
+  margin: 8vh 0 1vh 0;
+  color: var(--maroon);
 }
