@@ -1,0 +1,16 @@
+:root {
+  --background: #303446;
+  --text: #c6d0f5;
+  --teal: #81c8be;
+}
+
+body {
+  background: var(--background);
+  color: var(--text);
+}
+
+.main-heading {
+  font-family: "Array";
+  font-size: max(12vw, 30vw);
+  font-weight: 400;
+}
